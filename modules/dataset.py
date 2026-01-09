@@ -16,7 +16,7 @@ def load_dataset_dir(path: str)->Path | None:
 def load_img_files_names(folder: Path | None) -> list | None:
     if folder is None:
         print("Não foi possível criar a lista de imagens da pasta Leaves.")
-        return
+        return None
 
     files_list = [file for file in folder.glob("*.jpg")]
 
