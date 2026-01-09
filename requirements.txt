@@ -4,3 +4,4 @@ pathlib
 pandas
 scikit-image
 scikit-learn
+seaborn
