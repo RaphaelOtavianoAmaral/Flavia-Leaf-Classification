@@ -57,7 +57,7 @@ def extract_features(bin_img):
 
 
 
-    return features
+    return features,corners_coords
         
 
 
